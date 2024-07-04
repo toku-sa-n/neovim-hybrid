@@ -1,3 +1,4 @@
+vim.cmd([[
 " File:       hybrid.vim
 " Maintainer: Andrew Wong (w0ng)
 " URL:        https://github.com/w0ng/vim-hybrid
@@ -451,3 +452,4 @@ let &background = s:style
 " THE SOFTWARE.
 
 " }}}
+]])
