@@ -1,16 +1,13 @@
+vim.cmd("hi clear")
+
+if vim.fn.exists("syntax_on") then
+	vim.cmd("syntax reset")
+end
+
+vim.g.colors_name = "hybrid"
+
 vim.cmd([[
-" Initialisation:"{{{
-" ----------------------------------------------------------------------------
-
-hi clear
-
-if exists("syntax_on")
-  syntax reset
-endif
-
 let s:style = &background
-
-let g:colors_name = "hybrid"
 
 "}}}
 " GUI And Cterm Palettes:"{{{
